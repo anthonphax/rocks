@@ -1,0 +1,11 @@
+{
+  "state": 1,
+  "menu": [
+    {"id": "1", "link": "Dashboard"},
+    {"id": "2", "link": "Histórico"},
+    {"id": "3", "link": "Usuários"},
+    {"id": "4", "link": "Permissões"},
+    {"id": "5", "link": "Alertas"}
+  ],
+  "datetime": "DD/MM/AAAA HH:MM:SS"
+}
