@@ -1,47 +1,45 @@
-import './App.css';
-import * as React from 'react';
-
-import MenuJson from './navigation/menu.js';
-import MenuNavigation from './navigation/MenuNavigation.js';
-
-import ButtonGroup from '@mui/material/ButtonGroup';
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
-
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-
-import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
-
-const App = () => {
+import React from 'react'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Login from './components/login.component'
+import SignUp from './components/signup.component'
+function App() {
   return (
-    <>
-    <div className="App">
-    <div className="App-header">
-    <h1>Escolha a Usina</h1>
-      <ButtonGroup size="large" aria-label="large button group">
-        <Button variant="contained">1</Button>
-        <Button variant="contained">2</Button>
-        <Button variant="contained">3</Button>
-        <Button variant="contained">{MenuRoundedIcon} 4</Button>
-      </ButtonGroup>
-    </div>
-    </div>
-
-    <div>
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        minHeight="100vh"
-      >
-        <h1>Texto {MenuRoundedIcon}</h1>
-      </Box>
-          
-    </div>
-    </>
-  );
+    <Router>
+      <div className="App">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+          <div className="container">
+            <Link className="navbar-brand" to={'/sign-in'}>
+              The Rocks
+            </Link>
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/sign-in'}>
+                      Entrar
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/sign-up'}>
+                    Fazer Login
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div className="auth-wrapper">
+          <div className="auth-inner">
+            <Routes>
+              <Route exact path="/" element={<Login />} />
+              <Route path="/sign-in" element={<Login />} />
+              <Route path="/sign-up" element={<SignUp />} />
+            </Routes>
+          </div>
+        </div>
+      </div>
+    </Router>
+  )
 }
-
-export default App;
+export default App

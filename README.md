@@ -14,3 +14,11 @@
 
 ### `npm run build`
 
+
+### Algumas dependencias 
+
+### `yarn add @material-ui/core/`
+
+### `npm install react-router-dom`
+
+### `npm install bootstrap`
