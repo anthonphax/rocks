@@ -17,7 +17,7 @@ code {
   box-sizing: border-box;
 }
 body {
-  background: black !important;
+  background: #ffffff !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;
@@ -72,5 +72,33 @@ body, html, .App, #root, .auth-wrapper {
   margin: 0;
 }
 .forgot-password a {
-  color: #167bff;
+  color: rgba(61, 129, 196, 0.838);
+}
+
+.button-usipav{
+  position: relative;
+  display: inline-block;
+  margin-left: 30%;
+  background-color: rgba(61, 129, 196, 0.838); /* Cor de fundo azul claro */
+  color: white; /* Cor do texto branco */
+  font-size: 30px;
+  padding: 5px 15px;
+  width: 40%;
+  font-weight: 300; /* Texto mais fino */
+  margin-bottom: 10%;
+}
+
+
+.btn.btn-primary{
+  background-color: rgba(38, 85, 133, 0.838);
+}
+
+
+
+.titulo-log{
+  color: white;
+  font-size: 26px;
+  background-image: url(../public/rock.jpg);
+  text-decoration: none;
+  padding: 10px;
 }
