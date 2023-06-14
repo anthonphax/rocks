@@ -4,6 +4,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './components/login.component'
 import SignUp from './components/signup.component'
+import Mqboard from './components/mqboard.component'
 function App() {
   return (
     <Router>
@@ -29,6 +30,11 @@ function App() {
                     Registrar-se
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={'mqboard'}>
+                    MqBoard
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -39,6 +45,7 @@ function App() {
               <Route exact path="/" element={<Login />} />
               <Route path="/sign-in" element={<Login />} />
               <Route path="/sign-up" element={<SignUp />} />
+              <Route path="/mqboard" element={<Mqboard />} />
             </Routes>
           </div>
         </div>

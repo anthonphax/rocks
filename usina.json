@@ -1,0 +1,30 @@
+{ 
+	"usinas": {
+		"id": 1,
+		"ativa": true,
+		"cidade": "curitiba",
+		"nome": "Planta Usipav Londrina",
+		"moegas_quentes": [
+			{
+				"id": 1,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 2,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 3,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 4,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			}
+		]
+	}
+}
