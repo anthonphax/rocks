@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './components/login.component'
 import SignUp from './components/signup.component'
 import Mqboard from './components/mqboard.component'
+
 function App() {
   return (
     <Router>
@@ -32,7 +33,7 @@ function App() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to={'mqboard'}>
-                    MqBoard
+                    Dashboard
                   </Link>
                 </li>
               </ul>

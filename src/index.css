@@ -94,7 +94,6 @@ body, html, .App, #root, .auth-wrapper {
 }
 
 
-
 .titulo-log{
   color: white;
   font-size: 26px;
@@ -102,4 +101,5 @@ body, html, .App, #root, .auth-wrapper {
   text-decoration: none;
   padding: 10px;
 }
+
 
