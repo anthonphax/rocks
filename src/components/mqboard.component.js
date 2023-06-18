@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
+import Box, { BoxProps } from '@mui/material/Box';
 import usinas from "../data/usina.json";
 import Chart from './Chart';
-import { useState, useEffect, setError } from 'react';
+import Previsao from './Previsao';
+import Weight from './Weight';
 
 
 export default class Mqboard extends Component {
@@ -12,49 +14,64 @@ export default class Mqboard extends Component {
                 console.log("botão pressionado")
                 };
 
-    grafico = () => {
-    const [chartData, setChartData] = useState({});
-    const [haveData, setHaveData] = useState(false);
-    useEffect(() => { 
-        const fetchData = async () => {
-        try {
-            const res = await fetch('/api');
-            const data = await res.json();
-            setChartData(data);
-            setHaveData(true); // here, and importantly after the above setChartData call
-        } catch(error) {
-            setHaveData(false);
-            setError(error);
-        }
-        }
-        fetchData();
-    }, []);}
 
     render() {
         return (
             <> 
-                <div className='option-div'>
-                <h1 className='option-title'>Escolha uma Usina</h1>
-                
-                    {usinas.usinas.map((usinas) => {
-                        return <button 
-                                onClick={() => {console.log(usinas.cidade)}} 
-                                key={usinas.id} 
-                                value={usinas.nome} 
-                                className='option-plant'>
-                                    {usinas.nome}
-                                </button>
-                    })}
-                <form className='dashboard'>
-                    
-                </form>
-                <h1>Gráfico de Série Temporal</h1>
-                <Chart />
-                    
-
-                </div> 
-
-                
+            <Box className='dash-display'> 
+                <Box
+                sx={{
+                    display: 'inline',
+                    p: 1,
+                    m: 1,
+                }} 
+                >
+                    <div className='option-div'>
+                        <h1 className='option-title'>
+                            Escolha uma Usina
+                        </h1>
+                        {usinas.usinas.map((usinas) => {
+                            return <button 
+                                    onClick={() => {console.log(usinas.cidade)}} 
+                                    key={usinas.id} 
+                                    value={usinas.nome} 
+                                    className='option-plant'>
+                                        {usinas.nome}
+                                    </button>
+                        })}
+                    </div>
+                </Box>
+                <Box
+                sx={{
+                    display: 'flex',
+                    p: 1,
+                    m: 1,
+                }} 
+                >
+                    <Box 
+                        sx={{
+                            display: 'inline',
+                            p: 1,
+                            m: 1,
+                        }} 
+                        width={"100%"}
+                    >
+                        <div>
+                            <h3>Gráfico de Série Temporal</h3>
+                            <Box className="graphic-display">
+                                <Chart />
+                            </Box>
+                        </div> 
+                    </Box>
+                <Box>
+                    <Previsao />
+                </Box>
+                <Box>
+                    <Weight />
+                </Box>
+                </Box>
+            </Box>
+            
             </>
         )
     }

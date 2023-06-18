@@ -34,6 +34,7 @@
 }
 
 .option-div {
+  width: max-content;
   border-radius: 5px;
   text-align: center;
   line-height: 25px;
@@ -46,6 +47,13 @@
   border-radius: 5px;
 }
 
+.dash-display {
+  display: inline-block;
+  text-align: center;
+  box-shadow: none;
+  padding: 0 0 0 0;
+  align-self: flex-start;
+}
 
 @keyframes App-logo-spin {
   from {
