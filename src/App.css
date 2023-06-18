@@ -33,26 +33,23 @@
   position: relative;
 }
 
+.dash {
+  display: flex;
+  border-radius: 50%;
+}
+
 .option-div {
   width: max-content;
-  border-radius: 5px;
+  border-radius: 50px;
   text-align: center;
   line-height: 25px;
+  border-radius: 50%;
 }
 
-.option-plant {
-  color: rgb(28, 26, 139);
-  padding: 1px 5px 1px 5px;
-  margin: 1px 2% 1px 2%;
-  border-radius: 5px;
-}
-
-.dash-display {
+.peso {
   display: inline-block;
-  text-align: center;
-  box-shadow: none;
-  padding: 0 0 0 0;
-  align-self: flex-start;
+  margin: 5px 50px 5px 50px;
+  width: 200%;
 }
 
 @keyframes App-logo-spin {

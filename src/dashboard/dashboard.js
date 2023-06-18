@@ -18,7 +18,7 @@ export default class Mqboard extends Component {
     render() {
         return (
             <> 
-            <div>
+            <div className='dash'>
             <Box className='dash-display'> 
                 <Box
                 sx={{
@@ -33,15 +33,6 @@ export default class Mqboard extends Component {
                         </h1>
                         {usinas.usinas.map((usinas) => {
                             return <button 
-                                    style={{
-                                        color: 'white', 
-                                        backgroundColor:'black', 
-                                        borderRadius: '8%', 
-                                        margin: '5px 5px 5px 5px',
-                                        fontSize: '21px',
-                                        padding: '15px 15px',
-                                        boxShadow: '10px 10px 0 0 '
-                                    }}
                                     onClick={() => {console.log(usinas.cidade)}} 
                                     key={usinas.id} 
                                     value={usinas.nome} 
@@ -58,9 +49,6 @@ export default class Mqboard extends Component {
                     m: 1,
                 }} 
                 >
-                <Box>
-                    <Previsao />
-                </Box>
                     <Box 
                         sx={{
                             display: 'inline',
@@ -76,8 +64,9 @@ export default class Mqboard extends Component {
                             </Box>
                         </div> 
                     </Box>
-
-
+                <Box>
+                    <Previsao />
+                </Box>
                 <Box className="peso">
                     <Weight />
                 </Box>

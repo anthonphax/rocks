@@ -7,7 +7,7 @@ const Weight = () =>  {
     const peso = 101.5;
     return  (
       <div>
-        <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', textAlign: 'center', display: 'flex' }}>
           <Grid>
             <Card>
               <CardContent >
