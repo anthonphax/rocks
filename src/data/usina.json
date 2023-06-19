@@ -1,0 +1,86 @@
+{ 
+	"usinas": [{
+		"id": 1,
+		"ativa": true,
+		"cidade": "Londrina",
+		"nome": "Londrina",
+		"moegas_quentes": [
+			{
+				"id": 1,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 2,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 3,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 4,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			}
+		]
+	},
+	{
+		"id": 2,
+		"ativa": true,
+		"cidade": "Curitiba",
+		"nome": "Curitiba",
+		"moegas_quentes": [
+			{
+				"id": 1,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 2,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 3,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 4,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			}
+		]
+	},
+	{
+		"id": 1,
+		"ativa": true,
+		"cidade": "Londres",
+		"nome": "Gravataí",
+		"moegas_quentes": [
+			{
+				"id": 1,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 2,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 3,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			},
+						{
+				"id": 4,
+				"descricao": "1 - 3 mm",
+				"nivel": 0
+			}
+		]
+	}]
+}
