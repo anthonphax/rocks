@@ -80,7 +80,7 @@ function ControlPainel() {
           {(approvedTweets.length > 0 && <Row vertical>{approvedTweets}</Row>) || (
             <Empty>
               <FaListUl size='36' color='#888' />
-              <span>Lista em vazia!</span>
+              <span>Lista vazia!</span>
             </Empty>
           )}
         </Column>
@@ -92,7 +92,7 @@ function ControlPainel() {
           {(rejectedTweets.length > 0 && <Row vertical>{rejectedTweets}</Row>) || (
             <Empty>
               <FaListUl size='36' color='#888' />
-              <span>Lista em vazia!</span>
+              <span>Lista vazia!</span>
             </Empty>
           )}
         </Column>
