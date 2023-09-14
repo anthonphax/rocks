@@ -1,3 +1,5 @@
+Trello Organizacional do projeto: https://trello.com/b/2rePGzXZ/the-rocks 
+
 # The Rocks v.1
 ## Dashboard Inteligente
 
@@ -22,3 +24,4 @@
 ### `npm install react-router-dom`
 
 ### `npm install bootstrap`
+
