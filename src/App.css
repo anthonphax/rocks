@@ -17,6 +17,19 @@
   }
 }
 
+.navbar {
+  display: inline-block;
+  padding:0px 0px 0px 12px;
+  position: relative;
+  top:2.5px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: blue;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
