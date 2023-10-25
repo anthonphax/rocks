@@ -4,6 +4,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './components/login.component'
 import Mqboard from './components/mqboard.component'
+import MyIcon from './assets/images/account.svg';
 
 
 function App() {
@@ -32,6 +33,12 @@ function App() {
               </Link>
             </li>
           </ul>
+
+
+         
+          <h4 class="perfil-sidebar">
+            My Account
+          </h4>
         </div>
 
         <div className="content">

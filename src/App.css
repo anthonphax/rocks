@@ -84,6 +84,23 @@
   padding-top: 20px;
   text-align: center;
   z-index: 1;
+  background-color: black;
+  .nav-link{
+    color: white;
+  }
+  .account-icon{
+    fill: white;
+  }
+  .perfil-sidebar{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    right: 6%;
+    .perfil-sidebar-icon{
+      content: "images\account.svg";
+    }
+  }
 }
 
 .sidebar-minimized-button {
@@ -97,3 +114,4 @@
   padding-top: 60px;
   padding-left: 15%;
 }
+
