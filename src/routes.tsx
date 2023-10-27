@@ -1,24 +1,26 @@
-import { RouteObject } from "react-router"
-import App from "./App"
+import { RouteObject } from "react-router-dom"
+import { Dashboard } from "./pages"
 
 const routes: RouteObject[] = [
     {
         path: '/',
-        Component: App,
-        children: [
-            {
-                path: 'alerts',
-                element: 'alerts'
-            },
-            {
-                path: 'settings',
-                element: 'settings'
-            },
-            {
-                path: 'logs',
-                element: 'logs'
-            }
-        ]
+        Component: Dashboard,
+    },
+    {
+        path: 'alerts',
+        element: 'alerts'
+    },
+    {
+        path: 'settings',
+        element: 'settings'
+    },
+    {
+        path: 'logs',
+        element: 'logs'
+    },
+    {
+        path: '*',
+        element: 'error'
     }
 ]
 
