@@ -46,7 +46,7 @@ const MonitoringChart = () => {
                 data: labels.map(() => faker.number.int({ min: 1, max: 10 })),
                 borderColor: 'black',
                 backgroundColor: '#FF5C00',
-                pointRadius: 5,
+                pointRadius: 3.8,
                 borderWidth: 1,
                 pointStyle: 'rectRounded'
             },
