@@ -1,5 +1,6 @@
 import { RouteObject } from "react-router-dom"
 import { Dashboard } from "./pages"
+import { LoginScreen } from "./pages"
 
 const routes: RouteObject[] = [
     {
@@ -17,6 +18,10 @@ const routes: RouteObject[] = [
     {
         path: 'logs',
         element: 'logs'
+    },
+    {
+        path: '/login',
+        Component: LoginScreen,
     },
     {
         path: '*',
