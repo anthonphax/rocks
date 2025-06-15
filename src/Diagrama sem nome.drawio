@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,16 +27,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmG20BA8MLVYQPjlCfar-1" value="1:acessaPerdas()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="HmG20BA8MLVYQPjlCfar-1" value="1.1:acessaPerdas()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="120" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="355" y="120" />
             </Array>
             <mxPoint x="445" y="120" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmG20BA8MLVYQPjlCfar-2" value="2:acessaTotalPedidos()" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" parent="1" edge="1">
+        <mxCell id="HmG20BA8MLVYQPjlCfar-2" value="1.2:acessaTotalPedidos()" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="160" as="sourcePoint" />
             <Array as="points">
@@ -51,7 +52,7 @@
         <mxCell id="HmG20BA8MLVYQPjlCfar-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="HmG20BA8MLVYQPjlCfar-6" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="HmG20BA8MLVYQPjlCfar-8" value="3:acessaTotalReceita" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" parent="1" edge="1">
+        <mxCell id="HmG20BA8MLVYQPjlCfar-8" value="1.3:acessaTotalReceita()" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="230" as="targetPoint" />
             <Array as="points">
@@ -81,9 +82,10 @@
             <Array as="points">
               <mxPoint x="700" y="440" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PILcxo1Ch_EKKncKOGqT-7" value="1:acessaID()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-7" value="1.1:acessaListagemPedidos()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="440" as="sourcePoint" />
             <Array as="points">
@@ -92,28 +94,213 @@
             <mxPoint x="965" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PILcxo1Ch_EKKncKOGqT-8" value="2:acessaTotalPedidos()" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="965" y="480" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="890" y="480" />
-            </Array>
-            <mxPoint x="800" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PILcxo1Ch_EKKncKOGqT-9" value="C_&lt;span id=&quot;docs-internal-guid-f7dec2f7-7fff-565a-7c33-e3caf145633c&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Gerenciar &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;Pedidos&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="920" y="360" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PILcxo1Ch_EKKncKOGqT-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-9">
           <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="PILcxo1Ch_EKKncKOGqT-11" value="3:acessaTotalReceita" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-13" value="1.2.2:acessaClientePedido()" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="965" y="550" as="targetPoint" />
+            <mxPoint x="1135" y="470" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="880" y="550" />
+              <mxPoint x="1060" y="470" />
             </Array>
-            <mxPoint x="800" y="550" as="sourcePoint" />
+            <mxPoint x="970" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-14" value="Pedido" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1090" y="360" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-14">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-16" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.3:acessaDataCriacaoPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1135" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="500" />
+              <mxPoint x="1050" y="540" />
+            </Array>
+            <mxPoint x="975" y="500" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-17" value="1.1.1:exibeIdPedido()" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1135" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="440" />
+            </Array>
+            <mxPoint x="970" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-18" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.4:acessaPrazoPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1135" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="530" />
+            </Array>
+            <mxPoint x="975" y="530" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-19" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.4.1:editaPrazoPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="PILcxo1Ch_EKKncKOGqT-15" target="PILcxo1Ch_EKKncKOGqT-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1225" y="530" />
+            </Array>
+            <mxPoint x="1150" y="530" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-20" value="Pedido" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1270" y="360" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-20">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-22" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.5:exibeStatusPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1135" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="560" />
+            </Array>
+            <mxPoint x="975" y="560" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.6:selecionaInstânciaPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="PILcxo1Ch_EKKncKOGqT-10" target="PILcxo1Ch_EKKncKOGqT-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1075" y="580" />
+            </Array>
+            <mxPoint x="980" y="580" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-44" value="Usuário" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="860" y="770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-44">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-44">
+          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-47" value="V_&lt;span id=&quot;docs-internal-guid-f7dec2f7-7fff-565a-7c33-e3caf145633c&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Gerenciar Pedido&lt;/span&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1040" y="770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-47">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-49" value="1:acessaListagemPedidos()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="PILcxo1Ch_EKKncKOGqT-45" target="PILcxo1Ch_EKKncKOGqT-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="860" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="850" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-50" value="1.1:acessaListagemPedidos()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1175" y="850" />
+            </Array>
+            <mxPoint x="1265" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-51" value="C_&lt;span id=&quot;docs-internal-guid-f7dec2f7-7fff-565a-7c33-e3caf145633c&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Gerenciar &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;Pedido&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1220" y="770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-51">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-53" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.2.2:inserePrevisaoTerminoPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="880" />
+            </Array>
+            <mxPoint x="1270" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-54" value="Pedido" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1390" y="770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-54">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-56" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.3:enviaDadosPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1300" y="910" />
+              <mxPoint x="1350" y="950" />
+            </Array>
+            <mxPoint x="1275" y="910" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-57" value="1.1.1:insereStatusPedido()" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endFill=1;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="850" />
+            </Array>
+            <mxPoint x="1270" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-58" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.4:acessaPrazoPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="940" />
+            </Array>
+            <mxPoint x="1275" y="940" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-59" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.3.1:editaPrazoPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="PILcxo1Ch_EKKncKOGqT-55" target="PILcxo1Ch_EKKncKOGqT-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1525" y="940" />
+            </Array>
+            <mxPoint x="1450" y="940" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-60" value="Pedido" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1570" y="770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="PILcxo1Ch_EKKncKOGqT-60">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-62" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.3:exibeStatusPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1370" y="970" />
+            </Array>
+            <mxPoint x="1275" y="970" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PILcxo1Ch_EKKncKOGqT-63" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1.3.3:selecionaInstânciaPedido()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=classic;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="PILcxo1Ch_EKKncKOGqT-52" target="PILcxo1Ch_EKKncKOGqT-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1375" y="990" />
+            </Array>
+            <mxPoint x="1280" y="990" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
